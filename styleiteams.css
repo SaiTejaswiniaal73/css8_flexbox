@@ -1,0 +1,131 @@
+#main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 3px solid yellowgreen;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+#head
+{
+    display: flex;
+    background-color:rgb(246, 163, 225);
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content:space-between;
+    
+  
+    
+}
+#head div
+{
+    background-color: rgb(163, 6, 111);
+    border: 5px solid violet;
+    border-radius: 5px;
+    height: 150px;
+    width: 200px;
+    font-size: medium;
+    font-weight: bold;
+    justify-content: center;
+   
+}
+#head img
+     {
+        display: flex;
+        max-width: 70%; 
+        max-height: 90%;
+        padding: 15px;
+        height: auto;
+        width: auto
+    }
+    
+p{ 
+    font-size: 14px;         /* Adjust font size */
+    margin-bottom: 10px;     /* Space between name and image */
+    text-align: center;
+}
+#body
+{
+     
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content:space-between;
+    background-color:rgba(54, 252, 61, 0.514);
+   
+}
+#body div
+{
+    background-color: rgb(10, 247, 53);
+    padding: 20px;
+    height: 250px;
+    width: 80px;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+    flex-shrink: 10px;     
+} 
+#body img
+     {
+        
+        max-width: 70%; 
+        max-height: 100%;
+        padding: 15px;
+        height: auto;
+        width: auto
+    }
+#foot
+{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content:space-between;
+    background-color:rgba(54, 232, 252, 0.879);
+   
+}
+#foot div
+{
+    
+    background-color: rgb(113, 12, 246);
+    border: 5px solid rgba(15, 105, 202, 0.473);
+    border-radius: 5px;
+    height: 150px;
+    width: 200px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+   
+}
+#foot img
+     {
+        
+        max-width: 70%; 
+        max-height: 100%;
+        padding: 15px;
+        height: auto;
+        width: auto;
+    }
+#body #b2 
+{
+    flex-grow: 0.5;
+    
+}
+#b2 img
+     {
+        
+        max-width: 70%; 
+        max-height: 100%;
+        padding: 15px;
+        height: 100px;
+        width: 100px;
+        justify-content: center;
+    }
+
+
+
